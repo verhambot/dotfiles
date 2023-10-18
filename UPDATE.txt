@@ -1,0 +1,60 @@
+
+# Fedora 38
+
+
+UPDATE :
+- DNF
+- Flatpak
+- ProtonVPN
+- Pyenv
+- Golang
+- Rust
+- NVM / Node
+- Neovim
+- TMUX Nord
+- Syncthing
+- Arduino CLI
+- StegSeek
+- Blender
+- Phinger Cursors
+- Tela Icons
+- Graphite GRUB Theme
+- Nerd Fonts
+
+
+
+
+
+# Windows 11
+
+
+UPDATE :
+- Windows Update
+- Dell Update Application
+- Steam
+- Riot Games
+- Discord
+- Blender
+- Powertoys
+- Firefox
+- Brave Browser
+- Proton VPN
+- Spotify
+- Adobe Acrobat
+- Zoom
+- Fedora Media Writer
+- Obsidian
+- Scilab
+- Realtek High Definition Audio Driver (if not updated by Dell Update Application)
+
+
+WAVES MAXX AUDIO :
+- Install Autoruns
+- Run Autoruns as Administrator
+- Disable the following :
+    - RtkAudioUniversalService
+    - RtkAudUService
+    - WavesSvc
+    - WavesSysSvc
+    - WavesAudioService (not present)
+
