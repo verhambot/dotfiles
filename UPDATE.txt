@@ -1,11 +1,10 @@
 
 # Fedora 38
 
-
 UPDATE :
 - DNF
 - Flatpak
-- ProtonVPN
+- Proton VPN : TODO
 - Pyenv
 - Golang
 - Rust
@@ -15,10 +14,11 @@ UPDATE :
 - Syncthing
 - Arduino CLI
 - StegSeek
+- Firefox
 - Blender
 - Phinger Cursors
 - Tela Icons
-- Graphite GRUB Theme
+- Graphite GRUB Theme : TODO
 - Nerd Fonts
 
 
@@ -26,27 +26,6 @@ UPDATE :
 
 
 # Windows 11
-
-
-UPDATE :
-- Windows Update
-- Dell Update Application
-- Steam
-- Riot Games
-- Discord
-- Blender
-- Powertoys
-- Firefox
-- Brave Browser
-- Proton VPN
-- Spotify
-- Adobe Acrobat
-- Zoom
-- Fedora Media Writer
-- Obsidian
-- Scilab
-- Realtek High Definition Audio Driver (if not updated by Dell Update Application)
-
 
 WAVES MAXX AUDIO :
 - Install Autoruns
