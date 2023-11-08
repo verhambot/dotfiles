@@ -116,12 +116,13 @@ eval "$(pyenv init -)"
 export NVM_DIR="$HOME/.local/share/nvm"
 source "$NVM_DIR/nvm.sh" --no-use
 
+
 alias arduino-cli="arduino-cli --config-file $HOME/.config/arduino/arduino-cli.yaml"
 
-
-alias ls="exa"
+alias ls="eza"
 
 alias fnd="fd --hidden --no-ignore --exclude /mnt/btrfs_pool --exclude \*.svg --exclude \*.png --exclude \*.jpg"
 
 alias reload="exec $SHELL"
+
 alias :q="exit"
