@@ -1,4 +1,3 @@
-
 # Fedora 38
 
 UPDATE :
@@ -23,8 +22,6 @@ UPDATE :
 
 
 
-
-
 # Windows 11
 
 WAVES MAXX AUDIO :
@@ -36,4 +33,3 @@ WAVES MAXX AUDIO :
     - WavesSvc
     - WavesSysSvc
     - WavesAudioService (not present)
-
