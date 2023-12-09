@@ -1,24 +1,14 @@
-# Fedora 38
+# WSL Ubuntu
 
 UPDATE :
-- DNF
-- Flatpak
-- Proton VPN : TODO
+- APT
 - Pyenv
 - Golang
 - Rust
-- NVM / Node
+- NVM
 - Neovim
-- TMUX Nord
-- Syncthing
-- Arduino CLI
+- Nord TMUX
 - StegSeek
-- Firefox
-- Blender
-- Phinger Cursors
-- Tela Icons
-- Graphite GRUB Theme : TODO
-- Nerd Fonts
 
 
 
