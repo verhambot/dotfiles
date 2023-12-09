@@ -1,12 +1,8 @@
-mkdir -p "$HOME/.cache/zsh"
-
-
 setopt GLOB_DOTS
 zstyle ":completion:*" menu select
 zstyle ":completion:*" rehash true
 zstyle ":completion:*" matcher-list "m:{a-zA-Z-_}={A-Za-z_-}" "r:|=*" "l:|=* r:|=*"
 autoload -Uz compinit
-compinit -d "$HOME/.cache/zsh/zcompdump"
 
 
 setopt HIST_IGNORE_DUPS
@@ -14,7 +10,7 @@ setopt HIST_IGNORE_SPACE
 setopt HIST_REDUCE_BLANKS
 setopt HIST_VERIFY
 setopt SHARE_HISTORY
-export HISTFILE="$HOME/.cache/zsh/history"
+export HISTFILE="$HOME/.config/zsh/.history"
 export HISTSIZE=1000
 export SAVEHIST=1000
 
