@@ -34,8 +34,10 @@ key[Right]="${terminfo[kcuf1]}"
 key[PageUp]="${terminfo[kpp]}"
 key[PageDown]="${terminfo[knp]}"
 key[Shift-Tab]="${terminfo[kcbt]}"
-key[Control-Left]="${terminfo[kLFT5]}"
-key[Control-Right]="${terminfo[kRIT5]}"
+# key[Control-Left]="${terminfo[kLFT5]}"
+# key[Control-Right]="${terminfo[kRIT5]}"
+key[Control-Left]="^[[1;5D"
+key[Control-Right]="^[[1;5C"
 
 autoload -Uz up-line-or-beginning-search down-line-or-beginning-search
 zle -N up-line-or-beginning-search
@@ -117,7 +119,7 @@ export NVM_DIR="$HOME/.local/share/nvm"
 source "$NVM_DIR/nvm.sh" --no-use
 
 
-alias arduino-cli="arduino-cli --config-file $HOME/.config/arduino/arduino-cli.yaml"
+#alias arduino-cli="arduino-cli --config-file $HOME/.config/arduino/arduino-cli.yaml"
 
 alias ls="eza"
 
