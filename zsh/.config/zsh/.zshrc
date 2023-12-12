@@ -115,6 +115,9 @@ export NVM_DIR="$HOME/.local/share/nvm"
 source "$NVM_DIR/nvm.sh" --no-use
 
 
+export MYSQL_PS1="\u@\h [\d] > "
+
+
 #alias arduino-cli="arduino-cli --config-file $HOME/.config/arduino/arduino-cli.yaml"
 
 alias ls="eza"
