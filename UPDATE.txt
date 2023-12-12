@@ -7,7 +7,6 @@ UPDATE :
 - Rust
 - NVM
 - Neovim
-- Nord TMUX
 - StegSeek
 
 
