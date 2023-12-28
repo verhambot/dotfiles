@@ -1,0 +1,13 @@
+- Access WSL2 remotely :
+
+    - `> netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=<PORT> connectaddress=<WSL2 IP> connectport=<PORT>`
+    - `> netsh advfirewall firewall add rule name=<NAME> dir=in action=allow protocol=TCP localport=<PORT>`
+
+
+
+- Attach USB devices (Administrator) :
+
+    - `> usbipd list`
+    - `> usbipd bind --busid=<BUSID>`
+    - `> usbipd attach --wsl --busid=<BUSID>`
+    - `> usbipd detach --busid=<BUSID>`
