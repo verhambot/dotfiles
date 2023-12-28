@@ -1,11 +1,12 @@
 {
     "workbench.settings.editor": "json",
-    "window.zoomLevel": 1,
+    "workbench.startupEditor": "none",
     "telemetry.telemetryLevel": "off",
-    "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
-    "workbench.colorTheme": "Monokai",
+    "editor.fontFamily": "CaskaydiaCove Nerd Font Mono",
+    "workbench.colorTheme": "One Dark Pro",
+    "window.zoomLevel": 1,
     "editor.formatOnSave": true,
-    "python.defaultInterpreterPath": "/home/amoghsk/.local/share/pyenv/versions/3.12.0/bin/python",
+    "python.defaultInterpreterPath": "C:\\Users\\Amogh Kulkarni\\.pyenv\\pyenv-win\\versions\\3.12.1\\python.exe",
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
@@ -14,7 +15,6 @@
         "black"
     ],
     "arduino.useArduinoCli": true,
-    "arduino.additionalUrls": [
-        "https://espressif.github.io/arduino-esp32/package_esp32_index.json"
-    ]
+    "arduino.path": "/usr/local/bin",
+    "arduino.commandPath": "arduino-cli"
 }
