@@ -8,10 +8,44 @@ UPDATE :
 - NVM
 - Neovim
 - StegSeek
+- Arduino
 
 
 
 # Windows 11
+
+UPDATE :
+- Windows Update
+- Dell Update
+- Microsoft Store
+- Adobe Acrobat
+- Bitwarden
+- DaVinci Resolve
+- Blender
+- Steam
+- Riot Client
+- Discord
+- Docker Desktop
+- Google Chrome
+- Krita
+- Microsoft Teams
+- Visual Studio Code
+- Mozilla Firefox
+- OBS Studio
+- Obsidian
+- OnlyOffice Desktop Editors
+- VirtualBox
+- PowerShell 7
+- PowerToys
+- Proton VPN
+- Raspberry Pi Imager
+- Spotify
+- SyncTrazor
+- usbipd-win
+- Git
+- Pyenv
+- Golang
+- Arduino
 
 WAVES MAXX AUDIO :
 - Install Autoruns
