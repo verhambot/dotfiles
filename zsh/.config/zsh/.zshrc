@@ -109,6 +109,7 @@ path=("/usr/local/go/bin" $path)
 export PYENV_ROOT="$HOME/.local/share/pyenv"
 path=("$PYENV_ROOT/bin" $path)
 eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 
 export NVM_DIR="$HOME/.local/share/nvm"
