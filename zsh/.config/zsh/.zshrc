@@ -119,11 +119,9 @@ source "$NVM_DIR/nvm.sh" --no-use
 export MYSQL_PS1="\u@\h [\d] > "
 
 
-#alias arduino-cli="arduino-cli --config-file $HOME/.config/arduino/arduino-cli.yaml"
-
 alias ls="eza"
 
-alias fnd="fd --hidden --no-ignore --exclude /mnt/btrfs_pool --exclude \*.svg --exclude \*.png --exclude \*.jpg"
+alias fnd="fd --hidden --no-ignore --exclude \*.svg --exclude \*.png --exclude \*.jpg"
 
 alias reload="exec $SHELL"
 
