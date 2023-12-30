@@ -5,7 +5,7 @@
 
 	"font_size": 11,
 	"font_face": "CaskaydiaCove NFM Regular",
-	
+
 	"theme": "Adaptive.sublime-theme",
 	"color_scheme": "Mariana.sublime-color-scheme",
 
@@ -13,7 +13,7 @@
 
 	"line_padding_top": 3,
 	"line_padding_bottom": 3,
-	
+
 	"translate_tabs_to_spaces": true,
 
 	"word_wrap": false,
@@ -21,6 +21,8 @@
 	"bold_folder_labels": true,
 
 	"caret_style": "blink",
+
+	"rulers": [80],
 
 	"trim_trailing_white_space_on_save": "not_on_caret"
 }
