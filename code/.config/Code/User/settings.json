@@ -3,10 +3,10 @@
     "workbench.startupEditor": "none",
     "telemetry.telemetryLevel": "off",
     "editor.fontFamily": "CaskaydiaCove Nerd Font Mono",
-    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorTheme": "One Dark Pro Darker",
     "window.zoomLevel": 1,
     "editor.formatOnSave": true,
-    "python.defaultInterpreterPath": "C:\\Users\\Amogh Kulkarni\\.pyenv\\pyenv-win\\versions\\3.12.1\\python.exe",
+    "python.defaultInterpreterPath": "C:/Users/Amogh Kulkarni/.pyenv/pyenv-win/versions/3.9.13/python.exe",
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
