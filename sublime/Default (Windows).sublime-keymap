@@ -1,5 +1,24 @@
 [
     {
-        "keys": ["alt+`"], "command": "toggle_terminus_panel"
+        "keys": ["ctrl+alt+shift+k"],
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/Default/Default ($platform).sublime-keymap",
+            "default": "[\n\t$0\n]\n"
+        }
+    },
+
+    {
+        "keys": ["ctrl+alt+shift+s"],
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/Default/Preferences.sublime-settings",
+            "default": "[\n\t$0\n]\n"
+        }
+    },
+
+    {
+        "keys": ["alt+`"],
+        "command": "toggle_terminus_panel"
     }
 ]
