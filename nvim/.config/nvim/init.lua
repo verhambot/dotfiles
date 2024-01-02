@@ -1,27 +1,28 @@
 vim.keymap.set({ "n", "v" }, "<Space>", "<Nop>", { silent = true })
 vim.g.mapleader = " "
 
-require("packer").startup(function(use)
-    use { "wbthomason/packer.nvim" }
-    use { "arcticicestudio/nord-vim" }
-    use { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" }
-    use { "mhinz/vim-startify" }
-    use { "justinmk/vim-dirvish" }
-    use { "nvim-lualine/lualine.nvim" }
-    use { "windwp/nvim-autopairs" }
-    use { "numToStr/Comment.nvim" }
-    use { "tpope/vim-fugitive" }
-    use { "tpope/vim-surround" }
-    use { "tpope/vim-repeat" }
-    use { "tpope/vim-unimpaired" }
-    use { "lewis6991/gitsigns.nvim" }
-end)
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not vim.loop.fs_stat(lazypath) then
+    vim.fn.system({
+        "git",
+        "clone",
+        "--filter=blob:none",
+        "https://github.com/folke/lazy.nvim.git",
+        "--branch=stable",
+        lazypath,
+    })
+end
+vim.opt.rtp:prepend(lazypath)
+
+require("lazy").setup("plugins")
 
 vim.opt.termguicolors = true
 vim.g.nord_underline = true
 vim.g.nord_italic = true
 vim.g.nord_italic_comments = true
 vim.cmd("colorscheme nord")
+
+require("alpha").setup(require("alpha.themes.startify").config)
 
 require("nvim-treesitter.configs").setup({
 
@@ -56,11 +57,11 @@ require("lualine").setup({
     }
 })
 
-require("nvim-autopairs").setup()
+require("gitsigns").setup()
 
 require("Comment").setup()
 
-require("gitsigns").setup()
+require("nvim-autopairs").setup()
 
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
