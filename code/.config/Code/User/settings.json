@@ -1,10 +1,10 @@
 {
     "workbench.settings.editor": "json",
+    "window.zoomLevel": 0.8,
     "workbench.startupEditor": "none",
     "telemetry.telemetryLevel": "off",
     "editor.fontFamily": "CaskaydiaCove Nerd Font Mono",
     "workbench.colorTheme": "One Dark Pro Darker",
-    "window.zoomLevel": 1,
     "editor.formatOnSave": true,
     "python.defaultInterpreterPath": "C:/Users/Amogh Kulkarni/.pyenv/pyenv-win/versions/3.9.13/python.exe",
     "[python]": {
