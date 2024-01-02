@@ -24,6 +24,24 @@ vim.g.nord_italic_comments = true
 vim.cmd("colorscheme nord")
 
 require("nvim-treesitter.configs").setup({
+
+    ensure_installed = {
+        "bash",
+        "lua",
+        "vim", "vimdoc",
+        "json",
+        "markdown", "markdown_inline",
+        "c", "cpp",
+        "python",
+        "go", "gomod",
+        "rust",
+        "arduino",
+        "dockerfile",
+        "html", "css", "javascript",
+        "sql",
+        "query"
+    },
+
     highlight = { enable = true }
 })
 
