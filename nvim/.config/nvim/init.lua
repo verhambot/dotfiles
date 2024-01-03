@@ -22,47 +22,6 @@ vim.g.nord_italic = true
 vim.g.nord_italic_comments = true
 vim.cmd("colorscheme nord")
 
-require("alpha").setup(require("alpha.themes.startify").config)
-
-require("nvim-treesitter.configs").setup({
-
-    ensure_installed = {
-        "bash",
-        "lua",
-        "vim", "vimdoc",
-        "json",
-        "markdown", "markdown_inline",
-        "c", "cpp",
-        "python",
-        "go", "gomod",
-        "rust",
-        "arduino",
-        "dockerfile",
-        "html", "css", "javascript",
-        "sql",
-        "query"
-    },
-
-    highlight = { enable = true }
-})
-
-require("lualine").setup({
-    sections = {
-        lualine_b = { "branch" },
-        lualine_x = {
-            "encoding",
-            { "fileformat", symbols = { unix = "unix", dos = "dos", mac = "mac" } },
-            "filetype"
-        }
-    }
-})
-
-require("gitsigns").setup()
-
-require("Comment").setup()
-
-require("nvim-autopairs").setup()
-
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 

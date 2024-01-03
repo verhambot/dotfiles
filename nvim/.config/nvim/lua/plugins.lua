@@ -2,41 +2,91 @@ return {
 
     { "arcticicestudio/nord-vim" },
 
-    {
-        "nvim-treesitter/nvim-treesitter",
-        build = ":TSUpdate"
-    },
-
-    {
-        "goolord/alpha-nvim",
-        dependencies = { "nvim-tree/nvim-web-devicons" },
-    },
-
     { "justinmk/vim-dirvish" },
 
+    { "tpope/vim-repeat" },
+
+    { "tpope/vim-unimpaired" },
+
+    { "tpope/vim-fugitive" },
+
     {
-        "nvim-lualine/lualine.nvim",
-        dependencies = { "nvim-tree/nvim-web-devicons" }
+        "lewis6991/gitsigns.nvim",
+        config = true
+    },
+
+    {
+        "numToStr/Comment.nvim",
+        config = true
     },
 
     {
         "windwp/nvim-autopairs",
-        event = "InsertEnter"
+        event = "InsertEnter",
+        config = true
     },
-
-    { "numToStr/Comment.nvim" },
 
     {
         "kylechui/nvim-surround",
-        event = "VeryLazy"
+        event = "VeryLazy",
+        config = true
     },
 
-    { "lewis6991/gitsigns.nvim" },
+    {
+        "goolord/alpha-nvim",
+        config = function ()
+            local alpha = require("alpha")
+            local startify = require("alpha.themes.startify")
+            startify.nvim_web_devicons.enabled = false
+            alpha.setup(startify.config)
+        end
+    },
 
-    { "tpope/vim-fugitive" },
+    {
+        "nvim-lualine/lualine.nvim",
+        opts = {
+            sections = {
+                lualine_x = {
+                    "encoding",
+                    {
+                        "fileformat",
+                        symbols = { unix = "unix", dos = "dos", mac = "mac" }
+                    },
+                    "filetype"
+                }
+            }
+        },
+        config = true
+    },
 
-    { "tpope/vim-repeat" },
-
-    { "tpope/vim-unimpaired" }
+    {
+        "nvim-treesitter/nvim-treesitter",
+        build = ":TSUpdate",
+        main = "nvim-treesitter.configs",
+        opts = {
+            ensure_installed = {
+                "bash",
+                "lua",
+                "vim", "vimdoc",
+                "json",
+                "markdown", "markdown_inline",
+                "c", "cpp",
+                "python",
+                "go", "gomod",
+                "rust",
+                "arduino",
+                "dockerfile",
+                "html", "css", "javascript",
+                "sql",
+                "query"
+            },
+            highlight = {
+                enable = true,
+                additional_vim_regex_highlighting = false
+            },
+            indent = { enable = true }
+        },
+        config = true
+    }
 
 }
