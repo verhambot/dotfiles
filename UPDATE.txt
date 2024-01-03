@@ -30,6 +30,9 @@ UPDATE :
 - Krita
 - Microsoft Teams
 - Visual Studio Code
+- Sublime Text
+- JetBrains Toolbox
+- PuTTY
 - Mozilla Firefox
 - OBS Studio
 - Obsidian
