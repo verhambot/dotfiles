@@ -1,37 +1,38 @@
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by syntax-specific settings.
 {
-    "ui_scale": 1.2,
+	"ui_scale": 1.1,
 
-    "font_size": 10,
-    "font_face": "CaskaydiaCove NFM Regular",
+	"font_size": 10,
+	"font_face": "CaskaydiaCove NFM Regular",
+	"font_options": ["no_italic"],
+	
+	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "Mariana.sublime-color-scheme",
 
-    "theme": "Adaptive.sublime-theme",
-    "color_scheme": "Mariana.sublime-color-scheme",
+	"highlight_modified_tabs": true,
 
-    "highlight_modified_tabs": true,
+	"line_padding_top": 2,
+	"line_padding_bottom": 2,
 
-    "line_padding_top": 2,
-    "line_padding_bottom": 2,
+	"auto_complete": false,
+	
+	"translate_tabs_to_spaces": true,
 
-    "auto_complete": false,
+	"word_wrap": false,
 
-    "translate_tabs_to_spaces": true,
+	"bold_folder_labels": true,
 
-    "word_wrap": false,
+	"caret_style": "blink",
 
-    "bold_folder_labels": true,
+	"rulers": [80],
 
-    "caret_style": "blink",
+	"trim_trailing_white_space_on_save": "not_on_caret",
 
-    "rulers": [80],
+	"ignored_packages":
+	[
+		"Vintage",
+	],
 
-    "trim_trailing_white_space_on_save": "not_on_caret",
-
-    "ignored_packages":
-        [
-        "Vintage",
-        ],
-
-        "index_files": true
+	"index_files": true
 }
