@@ -35,7 +35,7 @@ UPDATE :
 - PuTTY
 - Mozilla Firefox
 - OBS Studio
-- Obsidian
+- Notion
 - OnlyOffice Desktop Editors
 - VirtualBox
 - PowerShell 7
