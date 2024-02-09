@@ -33,7 +33,7 @@ UPDATE :
 - Sublime Text
 - JetBrains Toolbox
 - PuTTY
-- Mozilla Firefox
+- Mozilla Firefox Developer Edition
 - OBS Studio
 - Notion
 - OnlyOffice Desktop Editors
@@ -49,6 +49,7 @@ UPDATE :
 - Pyenv
 - Golang
 - Arduino
+- ExifTool
 
 WAVES MAXX AUDIO :
 - Install Autoruns
