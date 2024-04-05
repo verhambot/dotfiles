@@ -41,15 +41,16 @@ UPDATE :
 - PowerShell 7
 - PowerToys
 - Proton VPN
-- Raspberry Pi Imager
 - Spotify
-- SyncTrazor
 - usbipd-win
 - Git
 - Pyenv
 - Golang
 - Arduino
 - ExifTool
+- Bruno
+- Unity
+- .NET SDK 8.0
 
 WAVES MAXX AUDIO :
 - Install Autoruns
