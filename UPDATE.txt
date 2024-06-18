@@ -51,6 +51,7 @@ UPDATE :
 - Bruno
 - Unity
 - .NET SDK 8.0
+- Transmission
 
 WAVES MAXX AUDIO :
 - Install Autoruns
